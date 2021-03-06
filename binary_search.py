@@ -11,6 +11,7 @@ def binari_search(num: List, target: int) -> int:
            left =  mid + 1
         else:
             right = mid -1
+    return -1
 
 num = [0,1,5,7,9,11,15,20,24]
 target = 5
